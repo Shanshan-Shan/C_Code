@@ -67,6 +67,7 @@
   <ItemGroup>
     <ClCompile Include="exe3_1.c" />
     <ClCompile Include="exe3_2.c" />
+    <ClCompile Include="exe3_3.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
