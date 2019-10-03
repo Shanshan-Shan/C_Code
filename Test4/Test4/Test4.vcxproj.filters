@@ -18,5 +18,8 @@
     <ClCompile Include="exe4_1.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="exe4_2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
