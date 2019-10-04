@@ -68,6 +68,7 @@
   <ItemGroup>
     <ClCompile Include="exe4_1.c" />
     <ClCompile Include="exe4_2.c" />
+    <ClCompile Include="exe4_3.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
