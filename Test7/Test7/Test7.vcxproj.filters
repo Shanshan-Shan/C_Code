@@ -27,5 +27,8 @@
     <ClCompile Include="exe7_4.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="exe7_5.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
