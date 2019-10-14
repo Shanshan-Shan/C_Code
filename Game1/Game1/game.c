@@ -56,17 +56,10 @@ void PlayerMove(char board[ROW][COL], int row, int col)
 	{
 		printf("请输入要走的坐标:>");
 		scanf("%d %d", &x, &y);
-		if (x >= 1 && x <= row && y >= 1 && y <= col)
+		if (x >= 1 && x <= row && y >= 1 && y <= col&&board[x - 1][y - 1] == ' ')
 		{
-			if (board[x - 1][y - 1] == ' ')
-			{
-				board[x - 1][y - 1] = '*';
-				break;
-			}
-			else
-			{
-				printf("该坐标被占用，请重新输入：\n");
-			}
+			board[x - 1][y - 1] = '*';
+			break;
 		}
 		else
 		{

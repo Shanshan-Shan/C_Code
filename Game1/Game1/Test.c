@@ -7,16 +7,16 @@ void game()  //玩游戏--三子棋
 {
 	char ret = 0;//接收IsWine();的返回值
 
-	char board[ROW][COL] = {0};     //棋盘--board初始化为全部空格' '，属于游戏模块
-	InitBoard(board,ROW,COL);       //初始化棋盘，初始化为全部空格' '，属于游戏模块
+	char board[ROW][COL] = { 0 };     //棋盘--board初始化为全部空格' '，属于游戏模块
+	InitBoard(board, ROW, COL);       //初始化棋盘，初始化为全部空格' '，属于游戏模块
 	DisplayBoard(board, ROW, COL);  //显示棋盘
 	while (1)
 	{
 		PlayerMove(board, ROW, COL);
-		DisplayBoard(board, ROW, COL); 
+		DisplayBoard(board, ROW, COL);
 
-	//无论玩家走还是电脑走，走完都有可能有输赢；
-    //判断电脑赢or玩家赢or平局or继续，四种状态；
+		//无论玩家走还是电脑走，走完都有可能有输赢；
+		//判断电脑赢or玩家赢or平局or继续，四种状态；
 		ret = IsWine(board, ROW, COL);  //判断输赢的函数，输出四种状态
 		if (ret != 'C')
 		{
@@ -43,7 +43,6 @@ void game()  //玩游戏--三子棋
 	{
 		printf("平局\n");
 	}
-
 }
  
 void menu()  //打印菜单
