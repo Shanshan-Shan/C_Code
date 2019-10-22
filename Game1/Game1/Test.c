@@ -7,7 +7,7 @@ void game()  //玩游戏--三子棋
 {
 	char ret = 0;//接收IsWine();的返回值
 
-	char board[ROW][COL] = { 0 };     //棋盘--board初始化为全部空格' '，属于游戏模块
+	char board[ROW][COL] = { 0 };     //棋盘--board,,属于游戏模块
 	InitBoard(board, ROW, COL);       //初始化棋盘，初始化为全部空格' '，属于游戏模块
 	DisplayBoard(board, ROW, COL);  //显示棋盘
 	while (1)
